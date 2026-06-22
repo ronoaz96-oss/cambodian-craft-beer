@@ -60,12 +60,12 @@ const scheduleEvents = ref([
 
 <template>
   <div class="bg-background min-h-screen flex flex-col justify-between">
-    <main class="mx-4 lg:mx-[60px] my-10 flex-grow">
+    <main class="mx-4 xl:mx-[60px] my-10 flex-grow">
       <h1 class="font-header text-primary text-center text-3xl md:text-4xl uppercase tracking-wider mb-8">
         Event Schedule
       </h1>
 
-      <div class="bg-card rounded-xl p-4 md:p-8 w-full mx-auto flex flex-col gap-4">
+      <div class="bg-card rounded-xl p-4 md:p-4 w-full mx-auto flex flex-col gap-4">
         
         <div 
           v-for="(event, index) in scheduleEvents" 

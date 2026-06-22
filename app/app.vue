@@ -1,9 +1,8 @@
-<script lang="ts">
-</script>
-
 <template>
-  <div class="mx-[16px] lg:mx-[60px]">
+  <div>
     <Header />
+    <main class="pt-[74px] xl:pt-[84px]">
+      <NuxtPage />
+    </main>
   </div>
-    <NuxtPage/>
 </template>
