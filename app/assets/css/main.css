@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+@theme {
+      --color-primary: #800020;
+      --color-accent: #640019;
+      --color-card: #F2F2F2;
+      --color-header: #000000;
+      --color-context: #3B3B3B;
+      --color-background: #FFFFFF;
+      --color-text-accent: #ffffff;
+
+      --font-primary: 'Inter', sans-serif;
+      --font-header: 'Righteous', sans-serif;
+}
+
+.nuxt-fonts-register {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Righteous', sans-serif;
+}
+
+body {
+      color: var(--color-context);
+      font-family: var(--font-primary)
+}
