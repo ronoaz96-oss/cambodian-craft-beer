@@ -94,7 +94,7 @@ const rightColumn = ref([
                 </div>
                 
                 <div v-if="activeIndex === item.id" class="flex flex-col gap-3 mt-1 border-t border-gray-100 pt-4">
-                  <div v-if="item.tag" class="self-start bg-card text-context text-xs px-2.5 py-1 rounded font-primary">
+                  <div v-if="item.tag" class="self-start bg-card text-context text-xs p-[10px] rounded font-primary">
                     {{ item.tag }}
                   </div>
                   <p class="text-context text-xs md:text-sm leading-relaxed font-primary">
@@ -130,7 +130,7 @@ const rightColumn = ref([
                 </div>
 
                 <div v-if="activeIndex === item.id" class="flex flex-col gap-3 mt-1 border-t border-gray-100 pt-4">
-                  <div v-if="item.tag" class="self-start bg-card text-context text-xs px-2.5 py-1 rounded font-primary">
+                  <div v-if="item.tag" class="self-start bg-card text-context text-xs p-[10px] rounded font-primary">
                     {{ item.tag }}
                   </div>
                   <p class="text-context text-xs md:text-sm leading-relaxed font-primary">
