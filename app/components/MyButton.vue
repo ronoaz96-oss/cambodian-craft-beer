@@ -1,7 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <TheHeader/>  
+  <div>
+    Component: MyButton
+  </div>
 </template>
 
 <style scoped></style>

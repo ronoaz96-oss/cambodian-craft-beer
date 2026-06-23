@@ -1,7 +1,10 @@
 <script setup lang="ts"></script>
 
 <template>
-  <TheHeader/>  
+  <div>
+    Component: TheFooter
+  </div>
 </template>
 
 <style scoped></style>
+F2F2F2

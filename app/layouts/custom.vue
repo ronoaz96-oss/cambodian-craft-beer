@@ -1,7 +1,10 @@
 <script setup lang="ts"></script>
 
 <template>
-  <TheHeader/>  
+  <div>
+    Layout: custom
+    <slot/>
+  </div>
 </template>
 
 <style scoped></style>
