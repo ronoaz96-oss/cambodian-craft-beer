@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-maroon: #800020;
+  --color-maroon-dark: #581622;
+  --color-maroon-light: #a8384a;
+  --color-card: #F2F2F2;
+  --color-gold: #e3a838;
+  --color-silver: #a9adb1;
+  --color-bronze: #c97d45;
+
+  --font-poppins: "Poppins", sans-serif;
+}
