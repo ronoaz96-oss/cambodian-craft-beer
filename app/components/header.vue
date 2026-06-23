@@ -9,10 +9,10 @@ const isOpen = ref(false)
     <div class="flex items-center justify-between">
       
       <div class="flex items-center gap-2">
-        <NuxtLink to="/home">
+        <NuxtLink to="/">
           <img src="/assets/images/logo1.png" alt="logo1" class="h-12 md:h-15">
         </NuxtLink>
-        <NuxtLink to="/home">
+        <NuxtLink to="/">
           <img src="/assets/images/logo2.png" alt="logo2" class="h-12 md:h-15">
         </NuxtLink>
       </div>
