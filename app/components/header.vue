@@ -5,16 +5,16 @@ const isOpen = ref(false)
 </script>
 
 <template>
-  <nav class="font-header bg-background fixed top-0 left-0 w-full z-50 px-4 lg:px-[60px] shadow-sm">
+  <nav class="font-header bg-background fixed top-0 left-0 w-full z-50 px-4 lg:px-[60px] border-b border-gray-200">
     <div class="flex items-center justify-between">
       
       <div class="flex items-center gap-2 py-2">
-            <NuxtLink to="/home">
-                  <img src="/assets/images/logo1.png" alt="logo1" class="h-12 md:h-15">
-            </NuxtLink>
-            <NuxtLink to="/home">
-                  <img src="/assets/images/logo2.png" alt="logo2" class="h-12 md:h-15">
-            </NuxtLink>
+        <NuxtLink to="/home">
+          <img src="/assets/images/logo1.png" alt="logo1" class="h-12 md:h-15">
+        </NuxtLink>
+        <NuxtLink to="/home">
+          <img src="/assets/images/logo2.png" alt="logo2" class="h-12 md:h-15">
+        </NuxtLink>
       </div>
 
       <button @click="isOpen = !isOpen" class="xl:hidden p-2 text-primary">
@@ -62,6 +62,7 @@ const isOpen = ref(false)
   padding: 25px 15px;
   font-size: 13px;
   transition: all 0.2s;
+  color: inherit;
 }
 
 @media (max-width: 1280px) {
@@ -71,12 +72,23 @@ const isOpen = ref(false)
   }
 }
 
+/* Hover States */
 .nav:hover {
   background-color: var(--color-primary);
   color: var(--color-text-accent);
 }
 
 .nav:hover .icon {
+  color: var(--color-text-accent) !important;
+}
+
+/* Active State Styles via Nuxt's exact matching class */
+.nav.router-link-exact-active {
+  background-color: var(--color-primary);
+  color: var(--color-text-accent);
+}
+
+.nav.router-link-exact-active .icon {
   color: var(--color-text-accent) !important;
 }
 </style>

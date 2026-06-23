@@ -105,7 +105,7 @@ const filteredBeerStyles = computed(() => {
               <h2 class="font-header text-primary text-[22px] uppercase tracking-wide leading-tight">
                 {{ style.name }}
               </h2>
-              <span class="inline-block bg-gray-100 text-gray-700 font-medium text-xs px-2.5 py-1 rounded-full mt-1">
+              <span class="inline-block bg-background text-gray-700 font-medium text-xs px-2.5 py-1 rounded-full mt-1">
                 Origin: {{ style.origin }}
               </span>
             </div>
