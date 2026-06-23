@@ -87,5 +87,6 @@
 
       </div>
     </section>
+    <TheFooter />
   </div>
 </template>
