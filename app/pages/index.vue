@@ -16,9 +16,9 @@ definePageMeta({ layout: 'home' })
           Classic European Beer Style — Inspired by centuries of European brewing excellence, 
           offering a refined taste, golden clarity, and an exceptionally smooth drinking experience.
         </p>
-        <button class="mt-8 self-start bg-primary text-white px-6 sm:px-8 py-3 font-header text-xs sm:text-sm uppercase tracking-widest hover:bg-accent transition-colors">
+        <NuxtLink to="https://docs.google.com/forms/d/e/1FAIpQLScEjueBWitDWygOZkaHDnkADWIHhYdgZ-lH_u3EvKM2RzL1AA/viewform" target="_blank" class="mt-8 self-start bg-primary text-white px-6 sm:px-8 py-3 font-header text-xs sm:text-sm uppercase tracking-widest hover:bg-accent transition-colors">
           JUDGE HERE
-        </button>
+        </NuxtLink>
       </div>
     </div>
 
@@ -71,8 +71,6 @@ definePageMeta({ layout: 'home' })
       </div>
     </section>
 
-    <footer class="bg-primary text-text-accent text-center py-6 px-4 text-xs sm:text-sm font-primary">
-      © CBAC — Cambodian Craft Beer Association • Event: 16 August 2025 • Botanico Craft Beer Garden
-    </footer>
+    <Footer />
   </div>
 </template>

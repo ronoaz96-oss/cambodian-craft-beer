@@ -101,7 +101,4 @@
       </div>
     </main>
   </div>
-  <footer class="bg-primary text-text-accent text-center py-4 text-xs md:text-sm font-primary w-full">
-    © Craft Beer Association Guide • Global Beer Styles Reference
-  </footer>
 </template>

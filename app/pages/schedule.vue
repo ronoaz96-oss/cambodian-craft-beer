@@ -59,8 +59,8 @@ const scheduleEvents = ref([
 </script>
 
 <template>
-  <div class="bg-background min-h-screen flex flex-col justify-between">
-    <main class="mx-4 xl:mx-[60px] my-10 flex-grow">
+  <div class="bg-background min-h-full xl:min-h-screen flex flex-col justify-between">
+    <main class="mx-4 xl:mx-[60px] xl:my-10 flex-grow">
       <h1 class="font-header text-primary text-center text-3xl md:text-4xl uppercase tracking-wider mb-8">
         Event Schedule
       </h1>
@@ -98,9 +98,5 @@ const scheduleEvents = ref([
 
       </div>
     </main>
-
-    <footer class="bg-primary text-text-accent text-center py-4 text-xs md:text-sm font-primary mt-12">
-      © CBAC — Cambodian Craft Beer Association • Event: 16 August 2025 • Botanico Craft Beer Garden
-    </footer>
   </div>
 </template>

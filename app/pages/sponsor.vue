@@ -144,9 +144,5 @@ const rightColumn = ref([
 
       </div>
     </main>
-
-    <footer class="bg-primary text-text-accent text-center py-4 text-xs md:text-sm font-primary mt-12 w-full">
-      © CBAC — Cambodian Craft Beer Association • Event: 16 August 2025 • Botanico Craft Beer Garden
-    </footer>
   </div>
 </template>

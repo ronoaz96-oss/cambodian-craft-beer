@@ -46,7 +46,7 @@ const isOpen = ref(false)
       </div>
 
       <div class="hidden xl:flex text-[16px] bg-primary hover:bg-accent text-text-accent px-[15px] py-[25px] items-center justify-center">
-        <NuxtLink to="/">Judge Here</NuxtLink>
+        <NuxtLink to="https://docs.google.com/forms/d/e/1FAIpQLScEjueBWitDWygOZkaHDnkADWIHhYdgZ-lH_u3EvKM2RzL1AA/viewform" target="_blank">Judge Here</NuxtLink>
       </div>
 
     </div>
